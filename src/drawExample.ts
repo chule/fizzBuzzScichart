@@ -136,6 +136,7 @@ export const drawExample = async (rootElement: string | HTMLDivElement) => {
     .hierarchy<{ children: FizzBuzzItem[] }>({ children: fizzBuzz })
     .sum((d) => (d as unknown as FizzBuzzItem).value);
 
+  // @ts-expect-error: TypeScript does not recognize the structure of the hierarchy data
   const packedCircles = pack(hierarchy).leaves();
 
   // circle packing version

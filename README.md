@@ -2,6 +2,8 @@
 
 This README provides a step-by-step guide to install and run a React application using Vite
 
+Demo: https://fizz-buzz-scichart.vercel.app/
+
 ## Prerequisites:
 Node.js and npm installed on your system
 

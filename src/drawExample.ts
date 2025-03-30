@@ -166,7 +166,7 @@ export const drawExample = async (rootElement: string | HTMLDivElement) => {
 
   // text annonations
   const title = new TextAnnotation({
-    text: "FizzBuzz demo",
+    text: "FizzBuzz Demo",
     fontSize: 24,
     x1: 450,
     y1: 600,

@@ -303,11 +303,12 @@ class BubblePaletteProvider implements IPointMarkerPaletteProvider {
 
   public onDetached(): void {}
 
+
   public overridePointMarkerArgb(
-    xValue: number,
-    yValue: number,
-    index: number,
-    opacity?: number,
+    _xValue: number,
+    _yValue: number,
+    _index: number,
+    _opacity?: number,
     metadata?: IPointMetadata
   ): TPointMarkerArgb {
     return {

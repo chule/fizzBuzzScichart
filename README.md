@@ -1,4 +1,4 @@
-# FizzBuzz Scichart
+# FizzBuzz SciChart
 
 This README provides a step-by-step guide to install and run a React application using Vite
 
